@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6599980571785613620}
   - component: {fileID: 5686523537599253325}
   - component: {fileID: 885058577339021274}
-  - component: {fileID: -5764681728323041597}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -78,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 2
   m_Sprite: {fileID: -983296130339864622, guid: f1d519290bc49d94dabd1833470c3eb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -103,6 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 885058577339021274}
+  speed: 8
 --- !u!82 &885058577339021274
 AudioSource:
   m_ObjectHideFlags: 0
@@ -160,7 +160,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -200,15 +200,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-5764681728323041597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3977979936953230008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e50ac5cc9b46df44cab21ff73c5e8d65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

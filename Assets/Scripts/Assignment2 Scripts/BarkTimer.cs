@@ -4,7 +4,7 @@ public class BarkTimer : MonoBehaviour
 {
     public GameObject currentObject;
     private float timerValue = 0f;
-    private float timerMaxValue = 2f;
+    public float timerMaxValue = 2f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
