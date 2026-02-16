@@ -777,7 +777,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentObject: {fileID: 384472565}
-  timerMaxValue: 2
 --- !u!114 &384472568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -949,7 +948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81894d88e9f2b9443b2bfbdb7f19e7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
+  timerValue: 0
   barks:
   - {fileID: 2085424158}
   - {fileID: 984339872}
@@ -1458,7 +1457,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentObject: {fileID: 566563338}
-  timerMaxValue: 2
 --- !u!1 &613364544
 GameObject:
   m_ObjectHideFlags: 0
@@ -2368,7 +2366,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentObject: {fileID: 984339872}
-  timerMaxValue: 2
 --- !u!1 &984796499
 GameObject:
   m_ObjectHideFlags: 0
@@ -3097,7 +3094,6 @@ GameObject:
   - component: {fileID: 1261921140}
   - component: {fileID: 1261921139}
   - component: {fileID: 1261921138}
-  - component: {fileID: 1261921137}
   m_Layer: 5
   m_Name: RatAlert
   m_TagString: Untagged
@@ -3124,20 +3120,6 @@ RectTransform:
   m_AnchoredPosition: {x: -223.66254, y: 163.5}
   m_SizeDelta: {x: 270.2332, y: 32.8113}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1261921137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261921135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f5616177f24f5340879fa42a83fda28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentObject: {fileID: 1261921135}
-  timerMaxValue: 1
 --- !u!114 &1261921138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3151,7 +3133,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentObject: {fileID: 1261921135}
-  timerMaxValue: 2
 --- !u!114 &1261921139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4203,7 +4184,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerValue: 0
-  timerMaxValue: 15
   enemyPrefab: {fileID: 3977979936953230008, guid: 4ae5de72d852f1840a97e7f64e31fa4e, type: 3}
   spawnedEnemy: {fileID: 0}
   enemyTrigger: {fileID: 943283808}
@@ -4783,7 +4763,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentObject: {fileID: 2085424158}
-  timerMaxValue: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
