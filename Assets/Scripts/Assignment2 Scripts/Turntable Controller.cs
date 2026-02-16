@@ -38,6 +38,20 @@ public class TurntableController : MonoBehaviour
             musicAudio.clip = tracks[trackNumber];
             musicAudio.Pause();
         }
+        if (volume.value == 3)
+        {
+            musicAudio.volume = 0.75f;
+        } else if (volume.value == 2)
+        {
+            musicAudio.volume = 0.5f;
+        }
+        else if (volume.value == 1)
+        {
+            musicAudio.volume = 0.25f;
+        } else
+        {
+            musicAudio.volume = 1;
+        }
     }
 
     public void ChangeThatFunkyMusic()
